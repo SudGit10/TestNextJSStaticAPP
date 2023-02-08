@@ -3,7 +3,7 @@ module.exports = {
     async headers() {
         return [
             {
-              source: '/,
+              source: '/',
               headers: [
                 {
                   key: 'Content-Security-Policy',
